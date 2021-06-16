@@ -17,7 +17,7 @@ html {
 }
 #Logo{
   margin-left:10px;
-  
+  position:absolute;
 }
 #Ltext{
   color:white;
@@ -27,6 +27,7 @@ html {
   margin-top:3px;
   padding:10px;
   padding-bottom:0px;
+  position:relative
 }
 #Menu{
   display:block;

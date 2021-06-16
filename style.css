@@ -24,7 +24,7 @@ html {
   font-family: 'Indie Flower', cursive;
   margin-left:100px;
   margin-top:3px;
-  padding:10px;
+  padding:30px;
   margin-bottom:30px;
 }
 #Menu{
@@ -123,7 +123,7 @@ a{text-decoration:none;}
   border:1px solid green;
   background-color:#f5f4ef;
   border-radius:1px;
-  margin:5px 0px 30px 120px;
+  margin:5px 0px 30px 110px;
   color:brown;
   height:50px;
   width:150px;

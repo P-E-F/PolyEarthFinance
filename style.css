@@ -34,7 +34,7 @@ html {
   width:500px;
   height:50px;
   position:fixed;
-  box-shadow:7px 0px 15px black;
+  box-shadow:-7px 0px 20px black;
 }
 .closebtn {position: absolute;
            color:white;
@@ -60,7 +60,7 @@ html {
           top: 0;
           left: 0;
           z-index:1;
-          box-shadow:7px 0px 15px black;
+          box-shadow:-7px 0px 15px black;
 }
 a {
    text-decoration:none; 
@@ -85,10 +85,6 @@ a:hover{
 .a:hover {
    text-decoration:none;
    color:white;
-}
-@media screen and (max-height: 450px) {
-  .mySidenav {padding-top: 15px;}
-  .mySidenav a {font-size: 18px;}
 }
 hr{
   width:200px;

@@ -17,7 +17,6 @@ html {
 }
 #Logo{
   margin-left:10px;
-  position:absolute;
 }
 #Ltext{
   color:white;
@@ -26,8 +25,7 @@ html {
   margin-left:100px;
   margin-top:3px;
   padding:10px;
-  padding-bottom:0px;
-  position:relative
+  margin-bottom:30px;
 }
 #Menu{
   display:block;
@@ -156,6 +154,7 @@ a{text-decoration:none;}
   display:block;
   border:1px solid darkred;
   border-radius:70px 70px 70px 70px;
+  border-bottom-left:none;
   margin-left:10px;
   margin-right:10px;
   height:70px;

@@ -123,14 +123,14 @@ a{text-decoration:none;}
   border:1px solid green;
   background-color:#f5f4ef;
   border-radius:1px;
-  margin:5px 0px 30px 135px;
+  margin:5px 0px 30px 120px;
   color:brown;
   height:50px;
-  width:120px;
+  width:150px;
   text-align:center;
   font-weight:bold;
   font-size:13pt;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Mate SC', serif;
 }
 #wi{
   height:100%;
@@ -158,10 +158,13 @@ a{text-decoration:none;}
   margin-left:10px;
   margin-right:10px;
   height:70px;
+  position:relative;
 }
 #buy2{
   font-size:15pt;
-  
+}
+#buy3{
+  position:absolute;
 }
 #cc {
   margin:5px 10px 15px 130px;
@@ -173,7 +176,7 @@ a{text-decoration:none;}
   border:1px solid white;
   border-radius:10px 10px 10px 1px;
   color:white;
-  height:20px;
+  height:10px;
   width:100px;
   font-family: 'Mate SC', serif;
 }

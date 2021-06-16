@@ -17,6 +17,7 @@ html {
 }
 #Logo{
   margin-left:10px;
+  
 }
 #Ltext{
   color:white;
@@ -24,8 +25,8 @@ html {
   font-family: 'Indie Flower', cursive;
   margin-left:100px;
   margin-top:3px;
-  margin-bottom:7px;
   padding:10px;
+  padding-bottom:0px;
 }
 #Menu{
   display:block;
@@ -138,7 +139,7 @@ a{text-decoration:none;}
 }
 #scan{
   color:white;
-  margin-left:96px;
+  margin-left:90px;
   background-color:Darkred;
   border:1px solid darkred;
   border-radius:1px 1px 10px 10px;
@@ -153,8 +154,7 @@ a{text-decoration:none;}
 #brdr{
   display:block;
   border:1px solid darkred;
-  border-radius:70px 70px 70px 0px;
-  border-left:none;
+  border-radius:70px 70px 70px 70px;
   margin-left:10px;
   margin-right:10px;
   height:70px;
@@ -164,7 +164,7 @@ a{text-decoration:none;}
   
 }
 #cc {
-  margin:5px 10px 15px 140px;
+  margin:5px 10px 15px 130px;
   padding:10px;
   padding-top:9px;
   padding-bottom:30px;
@@ -173,7 +173,7 @@ a{text-decoration:none;}
   border:1px solid white;
   border-radius:10px 10px 10px 1px;
   color:white;
-  height:25px;
+  height:20px;
   width:100px;
   font-family: 'Mate SC', serif;
 }

@@ -25,7 +25,7 @@ html {
   font-family: 'Indie Flower', cursive;
   margin-left:100px;
   padding:10px;
-  padding-bottom:60px;
+  margin-bottom:60px;
 
 }
 #Menu{
@@ -150,7 +150,7 @@ hr{
 #brdr{
   display:block;
   border:1px solid darkred;
-  border-radius:70px 70px 70px 70px;
+  border-radius:70px 70px 70px 0px;
   margin-left:10px;
   margin-right:10px;
   height:70px;
@@ -162,7 +162,7 @@ hr{
 }
 #buy3{
   display:inline-block;
-  position:relative;
+  position:absolute;
 }
 #cc {
   margin:5px 10px 15px 130px;

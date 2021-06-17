@@ -31,8 +31,8 @@ html {
 #Menu{
   display:block;
   background-color:darkred;
-  width:500px;
-  height:50px;
+  width:100%;
+  height:7%;
   position:fixed;
   box-shadow:-7px 0px 20px black;
 }
@@ -53,7 +53,7 @@ html {
 #mySidenav {
           background-color:darkred;
           position:fixed;
-          height: 0px;
+          height: 0%;
           width: 100%;
           overflow:hidden;
           transition: 1s;
@@ -87,7 +87,7 @@ a:hover{
    color:white;
 }
 hr{
-  width:200px;
+  width:70%;
   border-color:red;
 }
 #home{
@@ -96,7 +96,7 @@ hr{
   width:100%;
 }
 #main{
-  margin-left:70px;
+  margin-left:20%;
 }
 #dtl,#ln,#buyy,#buy2,#a1,#a2,#cw,#psale,#plink{
   text-align:center;
@@ -122,8 +122,8 @@ hr{
   border-radius:1px;
   margin:5px 0px 30px 110px;
   color:brown;
-  height:50px;
-  width:150px;
+  height:50%;
+  width:40%;
   text-align:center;
   font-weight:bold;
   font-size:13pt;
@@ -140,11 +140,12 @@ hr{
   border:1px solid darkred;
   border-radius:1px 1px 10px 10px;
   font-size:10pt;
-  padding-left:9px;
+  text-align:center;
+  padding-left:10px;
   padding-top:10px;
-  padding-bottom:0px;
-  height:40px;
-  width:170px;
+  padding-bottom:10px;
+  height:30%;
+  width:40%;
   font-family: 'Mate SC', serif;
 }
 #brdr{
@@ -153,16 +154,16 @@ hr{
   border-radius:70px 70px 70px 0px;
   margin-left:10px;
   margin-right:10px;
-  height:70px;
+  height:90%;
   position:relative;
 }
 #buy2{
   font-size:15pt;
-  position:relative;
 }
 #buy3{
   display:inline-block;
-  position:absolute;
+  border:1px solid darkred;
+  border-top:none;
 }
 #cc {
   margin:5px 10px 15px 130px;

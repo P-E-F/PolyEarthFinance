@@ -75,7 +75,7 @@ Telegram - https://t.me/ProgrammerXD -->
 </div>
 <div id="PreSale">
      <div id="p1">
-           <h2 id="pfont"> Presale is live </h2>
+           <h2 id="pfont"> Presale is in development stage</h2>
            <ul> <h3> Stats : </h3>
                <li> stat no. 1 </li>
                <li> stat no. 2 </li>
@@ -88,7 +88,7 @@ Telegram - https://t.me/ProgrammerXD -->
      <p id="a1"> RIDING on the current demand for meme cryptocurrencies. POLYEARTH aims to further spread the importance of green energy  for the future of blockchains</p>
    <div id="meme">
      <a href="https://dogecoin.com/"><img id="m1" src="Doge.png" height="40px" width="40px" type=></a>
-     <a href="https://shibatoken.com/"><img id="m2" src="Shib.png" height="60px" width="60px" ></a>
+     <a href="https://shibatoken.com/"><img id="m2" src="Shib.png" height="40px" width="40px" ></a>
      <a href="https://safemoon.net/"><img id="m3" src="Moon.jpeg" height="40px" width="40px"></a>
    </div>
 </div>
@@ -101,11 +101,9 @@ Telegram - https://t.me/ProgrammerXD -->
   <footer>
      <p id="cc"> CONTACT US </p>
      <div id="icons">
-     <a href="#" id ="fb"><img src="Fb.png" height="30px" width="30px"></a>
-     <a href="https://t.me/polyearthANN" id ="tele"><img src="Tg.png" height="30px" width="30px"></a>
-     <a href="#" id ="insta"><img src="Insta.png" height="30px" width="30px"></a>
+     <a href="https://t.me/polyearthANN" id ="tele"><img src="Tg.png" height="28px" width="28px"></a>
      <a href="https://twitter.com/POLYEARTHTOKEN?s=09" id ="twitter"><img src="Twitter.png" height="30px" width="30px"></a>
-     <a href="mailto:polyearthfinance@gmail.com" id ="gmail"><img src="Gmail.png" height="40px" width="40px"></a>
+     <a href="mailto:polyearthfinance@gmail.com" id ="gmail"><img src="Gmail.png" height="30px" width="30px"></a>
 </div>
   </footer>
 </div>
@@ -116,7 +114,7 @@ Telegram - https://t.me/ProgrammerXD -->
 <script>
           $("title").ready(function(){$("#my").hide();});
 function openNav() {
-document.getElementById("mySidenav").style.height = "235px";
+document.getElementById("mySidenav").style.height = "40%";
 }
 function closeNav() {
 document.getElementById("mySidenav").style.height = "0px";
@@ -124,34 +122,9 @@ document.getElementById("mySidenav").style.height = "0px";
 </script>
 <script>
           $("title").ready(function(){$("#PreSale").hide();});
-          $("#plink").click(function(){$("#home,#bsc,#brdr,#wi,#aims,#main").hide();});
-          $("#plink").click(function(){$("#PreSale").fadeToggle(500);});
-          $("#Back").click(function(){$("#PreSale").fadeToggle(500);});
-</script>
-<script>
-$npm install --save @maticnetwork/walletconnect-provider
-$npm install --save maticjs
-
-import WalletConnectProvider from "@maticnetwork/walletconnect-provider"
-import Web3 from "web3"import Matic from "maticjs"
-
-const maticProvider = new WalletConnectProvider(
-  {
-    host: `https://rpc-mumbai.matic.today`,
-    callbacks: {
-      onConnect: console.log('connected'),
-      onDisconnect: console.log('disconnected!')
-    }
-  }
-)
-
-const ropstenProvider = new WalletConnectProvider({
-  host: `https://ropsten.infura.io/v3/70645f042c3a409599c60f96f6dd9fbc`,
-  callbacks: {
-    onConnect: console.log('connected'),
-    onDisconnect: console.log('disconnected')
-  }
-})
+          $("#p").click(function(){$("#home,#bsc,#brdr,#wi,#aims,#main").hide(700);});
+          $("#p").click(function(){$("#PreSale").show(700);});
+          $("#home,#h,#w,#c,#a").click(function(){$("#PreSale,#home,#bsc,#brdr,#wi,#aims,#main").show(700);});
 </script>
 </body>
 </html>

@@ -35,6 +35,7 @@ Telegram - https://t.me/ProgrammerXD -->
               <a href="#">EMPTY</a>
               <a href="#"     class="" id="h" onclick="closeNav()">------</a>
               <a href="#home" class="" id="h" onclick="closeNav()">&diams; Home</a>
+              <a href="#PreSale" class="a" id="p" onclick="closeNav()">&diams; PRESALE</a>
               <a href="#i3"  class="a" id="w" onclick="closeNav()">&diams; What is POLY EARTH FINANCE?</a>
               <a href="#scan" class="a" id="c" onclick="closeNav()">&diams; BUYS SOME COINS</a>
               <a href="#cu" class="a" id="a" onclick="closeNav()">&diams; Contact us</a>
@@ -66,11 +67,11 @@ Telegram - https://t.me/ProgrammerXD -->
                    building awareness for sustainability and climate change with POLAYEARTH. Join us to build an enthusiastic COMMUNITY giving back to the environment
      </p><br><br>
 <div id="brdr">
-     <a href="https://quickswap.exchange/#/swap"><p id="buy2">POLY SWAP FINANCE LISTED AT</p>
+     <a href="https://quickswap.exchange/#/swap"><p id="buy2">POLY EARTH FINANCE LISTED AT</p>
      <img id="buy3" src="Qswap.png" height="30px" width="210px"></a>
 </div>
      <br>
-     <p id="psale"> [TRADE STARTS AFTER PRESALE ENDS]<br>[FOR PRESALE LINK JOIN OUR <a href="https://t.me/polyearthANN" id="plink">TELEGRAM</a> GROUP]</p>
+     <p id="psale"> [TRADE STARTS AFTER PRESALE ENDS] </p>
 </div>
 <div id="PreSale">
      <div id="p1">
@@ -82,13 +83,14 @@ Telegram - https://t.me/ProgrammerXD -->
            </ul>
      </div>
 </div>
-     <br>
 <div id="aims"><br><hr><br>
      <h3 id="whatIs">MEME - Centric</h3>
      <p id="a1"> RIDING on the current demand for meme cryptocurrencies. POLYEARTH aims to further spread the importance of green energy  for the future of blockchains</p>
+   <div id="meme">
      <a href="https://dogecoin.com/"><img id="m1" src="Doge.png" height="40px" width="40px" type=></a>
-     <a href="https://shibatoken.com/"><img id="m2" src="Shib.png" height="60px" width="50px" ></a>
+     <a href="https://shibatoken.com/"><img id="m2" src="Shib.png" height="60px" width="60px" ></a>
      <a href="https://safemoon.net/"><img id="m3" src="Moon.jpeg" height="40px" width="40px"></a>
+   </div>
 </div>
 <div id="aims"><br><hr><br>
      <h3 id="whatIs">POLYEARTH GIVES BACK</h3>
@@ -125,6 +127,31 @@ document.getElementById("mySidenav").style.height = "0px";
           $("#plink").click(function(){$("#home,#bsc,#brdr,#wi,#aims,#main").hide();});
           $("#plink").click(function(){$("#PreSale").fadeToggle(500);});
           $("#Back").click(function(){$("#PreSale").fadeToggle(500);});
+</script>
+<script>
+$npm install --save @maticnetwork/walletconnect-provider
+$npm install --save maticjs
+
+import WalletConnectProvider from "@maticnetwork/walletconnect-provider"
+import Web3 from "web3"import Matic from "maticjs"
+
+const maticProvider = new WalletConnectProvider(
+  {
+    host: `https://rpc-mumbai.matic.today`,
+    callbacks: {
+      onConnect: console.log('connected'),
+      onDisconnect: console.log('disconnected!')
+    }
+  }
+)
+
+const ropstenProvider = new WalletConnectProvider({
+  host: `https://ropsten.infura.io/v3/70645f042c3a409599c60f96f6dd9fbc`,
+  callbacks: {
+    onConnect: console.log('connected'),
+    onDisconnect: console.log('disconnected')
+  }
+})
 </script>
 </body>
 </html>

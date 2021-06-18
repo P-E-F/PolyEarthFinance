@@ -44,9 +44,9 @@ Telegram - https://t.me/ProgrammerXD -->
     <img id="main" src="Logo.png" height="250px" width="250px"> <br><br>
     <p id="ln"> Poly Earth Finance is crypto from the future. Clean, green, instant and cheap to use. </p>
     <br><br>
-    <a href="https://en.m.wikipedia.org/wiki/Cryptocurrency"><p id="i1"> CRYPTO </p></a>
-    <a href="https://en.m.wikipedia.org/wiki/Natural_environment"><p id="i2"> ENVIRONMENT</p></a>
-    <a href="https://en.m.wikipedia.org/wiki/Trade"><p id="i3"> TRADING </p></a><br>
+    <a href="https://en.m.wikipedia.org/wiki/Cryptocurrency"><p id="i1">&#8383; CRYPTO &rarrw;</p></a>
+    <a href="https://en.m.wikipedia.org/wiki/Natural_environment"><p id="i2">&#9784; ENVIRONMENT &rarrw;</p></a>
+    <a href="https://en.m.wikipedia.org/wiki/Trade"><p id="i3">&#9736; TRADING &rarrw;</p></a><br>
 </div>
 
 <div id="wi">
@@ -70,7 +70,17 @@ Telegram - https://t.me/ProgrammerXD -->
      <img id="buy3" src="Qswap.png" height="30px" width="210px"></a>
 </div>
      <br>
-     <p id="psale"> [TRADE STARTS AFTER PRESALE ENDS]<br>[FOR PRESALE LINK JOIN OUR <a href="https://t.me/polyearthANN" id="plink">TELEGRAM</a> GROUP]</p>
+     <p id="psale"> [TRADE STARTS AFTER PRESALE ENDS]<br>[FOR PRESALE LINK JOIN OUR <a href="#" id="plink">TELEGRAM</a> GROUP]</p>
+</div>
+<div id="PreSale">
+     <div id="p1">
+           <h2 id="pfont"> Presale is live </h2>
+           <ul> <h3> Stats : </h3>
+               <li> stat no. 1 </li>
+               <li> stat no. 2 </li>
+               <li> stat no. 3 </li>
+           </ul>
+     </div>
 </div>
      <br>
 <div id="aims"><br><hr><br>
@@ -109,6 +119,12 @@ document.getElementById("mySidenav").style.height = "235px";
 function closeNav() {
 document.getElementById("mySidenav").style.height = "0px";
 }
+</script>
+<script>
+          $("title").ready(function(){$("#PreSale").hide();});
+          $("#plink").click(function(){$("#home,#bsc,#brdr,#wi,#aims,#main").hide();});
+          $("#plink").click(function(){$("#PreSale").fadeToggle(500);});
+          $("#Back").click(function(){$("#PreSale").fadeToggle(500);});
 </script>
 </body>
 </html>

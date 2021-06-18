@@ -4,28 +4,26 @@ html {
 #mn{
   display:inline-block;
   text-align:right;
-  padding:5px 7px 3px 5px;
-  padding-left:15px;
+  padding:5px 7px 3px 15px;
   font-size:10pt;
   background-color:white;
   border-radius:2px;
   position:absolute;
   color:black;
-  margin:7px;
-  justify-content:;
+  margin:3%;
+  justify-content:left;
   font-family: 'Mate SC', serif;
 }
 #Logo{
-  margin-left:10px;
-
+  margin-left:auto;
+  margin-right:auto;
 }
 #Ltext{
   color:white;
   font-size:14pt;
   font-family: 'Indie Flower', cursive;
-  margin-left:100px;
-  margin-bottom:60px;
-
+  margin-left:auto;
+  margin-right:auto;
 }
 #Menu{
   display:flex;
@@ -102,6 +100,7 @@ hr{
   display:block;
   margin-left:auto;
   margin-right:auto;
+  margin-top:10%;
 }
 #dtl,#ln,#buyy,#a1,#a2,#cw,#psale,#plink{
   text-align:center;
@@ -152,10 +151,6 @@ hr{
   width:80%;
   font-family:Avenir;
 }
-#meme{
-  margin-right:auto;
-  margin-left:auto;
-}
 #brdr{
   display:block;
   justify-content:center;
@@ -182,7 +177,6 @@ hr{
 }
 #cc {
   display:flex;
-  padding:9px 10px 10px 10px;
   font-size:13pt;
   justify-content:center;
   align:center;
@@ -199,11 +193,11 @@ hr{
 #icons {
   margin-right:auto;
   margin-left:auto;
-  width:50%;
+  width:25%;
 }
 #copyright{
   border:none;
-  margin-right:1px;
+  margin-top:5px;
   height:100%;
   width:100%;
 }
@@ -211,11 +205,13 @@ hr{
   color:#1B252f;
   font-size:7pt;
 }
-#m1,#m2,#m3{
-  margin-right:20px;
+#meme{
+  margin-right:auto;
+  margin-left:auto;
+  width:34%;
 }
-#m1{
-  margin-left:110px;
+#m2{
+  margin-top:7px;
 }
 #PreSale{
   display:block;
@@ -224,6 +220,7 @@ hr{
   margin-top:90px;
   justify-content:center;
   align-items:center;
+  overflow:hidden;
 }
 #pfont{
   color:white;

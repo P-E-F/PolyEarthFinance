@@ -21,8 +21,9 @@ html {
   display:flex;
   background-color:darkred;
   width:100%;
-  height:7%;
+  height:50px;
   position:fixed;
+  z-index:2;
   justify-content:left;
   box-shadow:-7px 0px 20px black;
 }
@@ -33,11 +34,10 @@ html {
   right: 10px;
   font-size: 36px;
   margin-left: 50px;
-  z-index:2;
   width:40px;
   height:40px;
   text-align:center;
-  transition:1s;
+  transition:0.1s;
 }
 .closebtn:hover {color:red;
 }
@@ -45,9 +45,10 @@ html {
   background-color:darkred;
   position:fixed;
   height: 0%;
+  top:6%;
   width: 100%;
   overflow:hidden;
-  transition: 1s;
+  transition: 0.1s;
   z-index:1;
   box-shadow:-7px 0px 15px black;
   
@@ -190,17 +191,13 @@ hr{
   justify-content:center;
   align:center;
 }
-.fa-telegram{
+.fa-telegram,.fa-twitter,.fa-google{
   color:black;
+  padding:1%;
   background-color:none;
 }
-.fa-twitter{
-  color:black;
-  background-color:none;
-}
-.fa-google{
-  color:black;
-  background-color:none;
+.fa-telegram:hover,.fa-twitter:hover,.fa-google:hover{
+  color:grey;
 }
 #copyright{
   border:none;
@@ -222,8 +219,6 @@ hr{
 #PreSale{
   display:block;
   background-color:black;
-  margin:10px;
-  margin-top:90px;
   justify-content:center;
   align-items:center;
   overflow:hidden;
@@ -233,10 +228,37 @@ hr{
   text-align:center;
   margin:5px;
 }
-#p1{
-   text-align:left;
-   color:white;
-}
-#ul{
+#pfont2{
   color:white;
+  margin:5px;
+}
+#p1{
+  text-align:center;
+}
+#p2{
+  color:grey;
+}
+#p3{
+  border:1px solid red;
+  border-radius:3%;
+  background-color:black;
+  width:50%;
+  margin-left:auto;
+  margin-right:auto;
+  padding:2%;
+  font-size:15pt;
+}
+#p4{
+  border:1px solid red;
+  border-radius:3%;
+  background-color:black;
+  width:50%;
+  margin-left:auto;
+  margin-right:auto;
+  padding:2%;
+  font-size:15pt;
+  color:white;
+}
+#p5{
+  color:grey;
 }

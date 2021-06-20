@@ -1,129 +1,264 @@
-<!-- MADE BY NAMAN SAINI -->
-<!-- My social accounts :
-
-Youtube - https://youtube.com/channel/UCiKTJ_cHytgUSITeuFGzJmQ
-Facebook - https://www.facebook.com/profile.php?id=100069078836350
-Insta - https://instagram.com/programmerxd?utm_medium=copy_link
-Email id - amprogrammerxd@gmail.com 
-Telegram - https://t.me/ProgrammerXD -->
-
-<!DOCTYPE html>
-<html>
-<head>
-<title>POLY EARTH FINANCE</title>
-<meta
-  name="viewport"
-  content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-           <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-           <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Mate+SC&family=Nunito:wght@200&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-</head>
-<!--
-  |\     |     ---     |\  /|     ---     |\   |
-  | \    |    /   \    | \/ |    /   \    | \  |
-  |   \  |   / --- \   |    |   / --- \   |  \ |
-  |     \|  /       \  |    |  /       \  |   \|      -watermark :p
--->
-<body>
-   <span id="Menu"><font id="mn" onclick="openNav()">MENU &#9776;</font>
-              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-   </span>
-         <div id="mySidenav">
-              <a href="#home" class="" id="h" onclick="closeNav()">&diams; Home</a>
-              <a href="#PreSale" class="a" id="p" onclick="closeNav()">&diams; PRESALE</a>
-              <a href="#i3"  class="a" id="w" onclick="closeNav()">&diams; What is POLY EARTH FINANCE?</a>
-              <a href="#scan" class="a" id="c" onclick="closeNav()">&diams; BUYS SOME COINS</a>
-              <a href="#cu" class="a" id="a" onclick="closeNav()">&diams; Contact us</a>
-         </div>
-<div id="home"> 
-    <br><br><br><br>
-    <img id="main" src="Logo.png" height="250px" width="250px"> <br><br>
-    <p id="ln"> Poly Earth Finance is crypto from the future. Clean, green, instant and cheap to use. </p>
-    <br><br>
-    <a href="https://en.m.wikipedia.org/wiki/Cryptocurrency"><p id="i1">&#8383; CRYPTO &rarrw;</p></a>
-    <a href="https://en.m.wikipedia.org/wiki/Natural_environment"><p id="i2">&#9784; ENVIRONMENT &rarrw;</p></a>
-    <a href="https://en.m.wikipedia.org/wiki/Trade"><p id="i3">&#9736; TRADING &rarrw;</p></a><br>
-</div>
-
-<div id="wi">
-     <hr id="wwhh"><br>
-     <h3 id="whatIs"> WHAT IS POLY EARTH FINANCE? </h3><br>
-     <p id="dtl"> POLY EARTH FINANCE BASED ON MATIC CHAIN NETWORK
-                  THIS CHAIN FOR TRANSACTIONS FEES CHEAPER FROM BSC BLOCKCHAIN USE POLYGON FOR TRANSACTIONS AND SAVE THE EARTH PRODUCES GREEN ENERGY WITH US 
-                  BUY ON QUICKSWAP
-     </p><br>
-     <a href="https://polygonscan.com/token/0x0afdd4d45e4a12fa022b317c5ead0e04f1250ce7"><p id="scan">VISIT US ON POLYSCAN</p></a></p>
-</div>
-
-<div id="bsc">
-     <hr id="busy"><br>
-     <h3 id="whatIs"> BUY SOME COINS </h3>
-     <p id="buyy"> FOR A GREENER future one POLYEARTH at a time 
-                   building awareness for sustainability and climate change with POLAYEARTH. Join us to build an enthusiastic COMMUNITY giving back to the environment
-     </p><br><br>
-<div id="brdr">
-     <a href="https://quickswap.exchange/#/swap"><p id="buy2">POLY EARTH FINANCE LISTED AT</p>
-     <img id="buy3" src="Qswap.png" height="30px" width="210px"></a>
-</div>
-     <br>
-     <p id="psale"> [TRADE STARTS AFTER PRESALE ENDS] </p>
-</div>
-<div id="PreSale">
-     <div id="p1"><br><br><br>
-           <h2 id="pfont"> Presale is live </h2><br>
-           <p id="p2"> 500 Lucky users will be selected from presale</p><br>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSe6QKj2BlHq92O2O_vur1puMa7zmDaK8pp6wSVfac8fO-SIHQ/viewform?usp=sf_link"><p id="p3"> GOOGLE FORMS </p></a><br>
-            <h3 id="pfont2"> Live airdrop :</h3><br><br><p id="p5"> Available only for first 10K USERS <br> Rewards - worth 10$ PEF Coin on joining airdrop and completing all tasks <br> Reffer your Friends amd Earn 2$ in PEF Coin <br>- Distribution on 30June <br><br><p id="p4"> TELEGRAM BOT </p>
-     </div>
-</div>
-<div id="aims"><br><hr><br>
-     <h3 id="whatIs">MEME - Centric</h3>
-     <p id="a1"> RIDING on the current demand for meme cryptocurrencies. POLYEARTH aims to further spread the importance of green energy  for the future of blockchains</p>
-   <div id="meme">
-     <a href="https://dogecoin.com/"><img id="m1" src="Doge.png" height="40px" width="40px"></a>
-   </div>
-</div>
-<div id="aims"><br><hr><br>
-     <h3 id="whatIs">POLYEARTH GIVES BACK</h3>
-     <p id="a2">Donation to charitable organisation or foundations dedicated to protecting and supporting the environment</p>
-</div>
-
-<div id="cu"><br>
-  <footer>
-     <p id="cc"> CONTACT US </p>
-     <div id="icons">
-     <a href="#" class="fa fa-telegram"></a>
-     <a href="#" class="fa fa-twitter"></a>
-     <a href="#" class="fa fa-google"></a>
-</div>
-  </footer>
-</div>
-
-<div id="copyright">
-        <p id="cw">Copyright © The PolyEarth Project 2021</p>
-</div>
-<script>
-          $("title").ready(function(){$("#my").hide();});
-function openNav() {
-document.getElementById("mySidenav").style.height = "35%";
+*{
+-webkit-tap-highlight-color:none
 }
-function closeNav() {
-document.getElementById("mySidenav").style.height = "0px";
+html {
+  scroll-behavior: smooth;
 }
-</script>
-<script>
-          $("title").ready(function(){$("#PreSale,.closebtn").hide();});
-          $("#p").click(function(){$("#home,#bsc,#brdr,#wi,#aims,#main").hide(100);});
-          $("#home,#bsc,#brdr,#wi,#aims,#main").click(function(){$("#PreSale").hide(100);});
-          $("#p").click(function(){$("#PreSale").show(100);});
-          $("#h,#w,#c,#a").click(function(){$("#home,#bsc,#brdr,#wi,#aims,#main").show(100);});
-          $("#h,#w,#c,#a").click(function(){$("#PreSale").hide(100);});
-          $(".closebtn,#h,#w,#c,#a,#p").click(function(){$(".closebtn").hide(100);});
-          $("#mn").click(function(){$(".closebtn").show(100);});
-</script>
-</body>
-</html>
+#mn{
+  display:flex;
+  text-align:right;
+  padding:1% 2% 1% 3%;
+  font-size:10pt;
+  background-color:white;
+  border-radius:2px;
+  position:absolute;
+  color:black;
+  margin:3%;
+  justify-content:left;
+  font-family: 'Mate SC', serif;
+}
+#Menu{
+  display:flex;
+  background-color:darkred;
+  width:100%;
+  height:50px;
+  position:fixed;
+  z-index:2;
+  justify-content:left;
+  box-shadow:-7px 0px 20px black;
+}
+.closebtn {
+  position: absolute;
+  color:white;
+  top: 0;
+  right: 10px;
+  font-size: 36px;
+  margin-left: 50px;
+  width:40px;
+  height:40px;
+  z-index:3;
+  text-align:center;
+  transition:0.1s;
+}
+.closebtn:hover {color:red;
+}
+#mySidenav {
+  background-color:darkred;
+  position:fixed;
+  height: 0%;
+  top:6%;
+  width: 100%;
+  overflow:hidden;
+  transition: 0.1s;
+  z-index:1;
+  box-shadow:-7px 0px 15px black;
+  
+}
+a {
+  text-decoration:none; 
+  color:white;
+  background-color:none;
+  border:none;
+}
+a:hover{
+  text-decoration:none;
+  background-color:none;
+}
+.a,#h{
+   text-decoration:none;
+   padding:12px;
+   padding-left:20px;
+   display:block;
+   cursor:crosshair;
+   font-family:Serif;
+   font-size:12pt;
+   color:white;
+   overflow:hidden;
+}
+.a:hover {
+   text-decoration:none;
+   color:white;
+}
+hr{
+  width:70%;
+  border-color:red;
+}
+#home{
+  background-color:#f5f4ef;
+  height:100%;
+  width:100%;
+  display:block;
+  justify-content:center;
+}
+#main{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+#dtl,#ln,#buyy,#a1,#a2,#cw,#psale,#plink{
+  text-align:center;
+  color:green;
+  font-size:12pt;
+  font-weight:bold;
+  font-family: 'Nunito', sans-serif;
+}
+#psale{
+  color:pink;
+  font-family:Courier;
+}
+#plink{
+  color:#FF69B4;
+}
+#whatIs{
+  text-align:center;
+  color:darkred;
+}
+#i1,#i2,#i3{
+  padding: 15px 5px 11px 10px;
+  background-color:#f5f4ef;
+  margin-left:auto;
+  margin-right:auto;
+  color:brown;
+  height:50%;
+  width:55%;
+  text-align:center;
+  font-weight:bold;
+  font-size:15pt;
+  font-family:Avenir;
+}
+#wi{
+  height:100%;
+  width:100%;
+}
+#scan{
+  color:Darkred;
+  display:block;
+  background-color:white;
+  border:1px solid darkred;
+  border-radius:70px 70px 70px 0px;
+  font-size:13pt;
+  text-align:center;
+  padding:10px 0 10px 10px;
+  margin-left:40px;
+  height:40%;
+  width:80%;
+  font-family:Avenir;
+}
+#brdr{
+  display:block;
+  justify-content:center;
+  align-items:center;
+  background-color:white;
+  border:1px solid darkred;
+  border-radius:70px 70px 70px 0px;
+  margin-left:10px;
+  margin-right:10px;
+  height:90%;
+  position:relative;
+}
+#buy2{
+  font-size:15pt;
+  color:darkred;
+  font-family:Alvenir;
+  text-align:center;
+}
+#buy3{
+  display:inline-block;
+  margin:0 0 5px 65px;
+  border:1px outset darkblue;
+  border-radius:30px;
+}
+#cc {
+  display:flex;
+  font-size:13pt;
+  justify-content:center;
+  align:center;
+  border:none;
+  font-family:Helvetica;
+}
+#cu {
+  display:block;
+  color:black;
+  background-color:#fffff0;
+  height:100%;
+  width:100%;
+}
+#icons {
+  display:flex;
+  margin-right:auto;
+  margin-left:auto;
+  font-size:20pt;
+  justify-content:center;
+  align:center;
+}
+.fa-telegram,.fa-twitter,.fa-google{
+  color:black;
+  padding:1%;
+  background-color:none;
+}
+.fa-telegram:hover,.fa-twitter:hover,.fa-google:hover{
+  color:grey;
+}
+#copyright{
+  border:none;
+  margin-top:5px;
+  height:100%;
+  width:100%;
+}
+#cw{
+  color:#1B252f;
+  font-size:7pt;
+}
+#meme{
+  display:flex;
+  margin-right:auto;
+  margin-left:auto;
+  width:50%;
+  justify-content:center;
+}
+#PreSale{
+  display:block;
+  background-color:black;
+  justify-content:center;
+  align-items:center;
+  overflow:hidden;
+}
+#pfont{
+  color:white;
+  text-align:center;
+  margin:5px;
+}
+#pfont2{
+  color:white;
+  margin:5px;
+}
+#p1{
+  text-align:center;
+}
+#p2{
+  color:grey;
+}
+#p3{
+  border:1px solid red;
+  border-radius:3%;
+  background-color:black;
+  width:50%;
+  margin-left:auto;
+  margin-right:auto;
+  padding:2%;
+  font-size:15pt;
+}
+#p4{
+  border:1px solid red;
+  border-radius:3%;
+  background-color:black;
+  width:50%;
+  margin-left:auto;
+  margin-right:auto;
+  padding:2%;
+  font-size:15pt;
+  color:white;
+}
+#p5{
+  color:grey;
+}

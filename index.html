@@ -93,10 +93,24 @@ Join our team - https://t.me/DevelopersAndProgrammers-->
 </div><br><br>
 <div id="PreSale">
      <div id="p1"><br><br><br>
-           <h2 id="pfont"> Presale is live </h2><br>
-           <p id="p2"> 500 Lucky users will be selected from presale</p><br>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSe6QKj2BlHq92O2O_vur1puMa7zmDaK8pp6wSVfac8fO-SIHQ/viewform?usp=sf_link"><p id="p3"> GOOGLE FORMS </p></a><br>
-            <h3 id="pfont2"> Live airdrop :</h3><br><br><p id="p5"> Available only for first 10K USERS <br> Rewards - worth 10$ PEF Coin on joining airdrop and completing all tasks <br> Reffer your Friends amd Earn 2$ in PEF Coin <br>- Distribution on 30June <br><br><a href="https://t.me/PolyEarth_Finance_bot?start=r05509318290"><p id="p4"> TELEGRAM BOT </p></a>
+ <div id="box">
+           <h3 id="pef2"> POLYEARTH FINANCE </h3><h5>(Ticker - POLYEARTH)</h5><br>
+           <h4>POLYEARTH Token Allocation1</h4>
+           <p>5% for sale#1 (available now)</p><br><br>
+           <p id="hdn">Tokens for Sale#1:<font id="para"> 5,000,0000</font></p><br>
+           <p id="hdn">Price: <font id="para">1MATIC = 5000 POLYEARTH</font></p><br>
+           <p id="hdn">Minimum Purchase: <font id="para">20Matic / 30USDC / 0.075BNB</font></p><br>
+           <p id="hdn">Max Purchase: <font id="para">1000Matic / 1200USDC / 5BNB</font></p><br>
+           <p id="hdn"class="hdn">You will receive your POLYEARTH tokens in 5minutes-3hours after payment<br>
+           Payments made in USDC,BNB,ETH will equal to the USDC/MATIC price at the time of payment</p><br>
+           <h4>Add POLYEARTH Contract address in Metamask:</h4>
+           0x0afdd4d45e4a12fa022b317c5ead0e04f1250ce7
+ </div>
+           <h2 id="pfont"> Presale is Live </h2><br>
+           <p id="p2">To purchase POLYEARTH from first PRESALE send MATIC, USDC , ETH or BNB to the following address :<br>(Wallet Address is same for all networks)</p><br>
+           <p id="p3"> 0x5f30C5FF482d568892d52dB0271506424cF736f2</p><button id="b1" onclick="CopyToClipboard('#p3')"> <i class="fa fa-clipboard"></i> COPY TO CLIBOARD</button><br>
+           <p id="p6">NOTE: DON'T SEND MATIC FROM YOUR EXCHANGE ADDRESS,SEND ONLY FROM YOUR PERSONAL WALLET<br>ELSE WE WILL NOT BE RESPONSIBLE FOR ANY KIND OF LOSS</p><br><br>
+            <h3 id="pfont2"> Live Airdrop :</h3><br><br><p id="p5"> Available only for first 10K USERS <br> Rewards - worth 10$ PEF Coin on joining airdrop and completing all tasks <br> Reffer your Friends amd Earn 2$ in PEF Coin <br>- Distribution on 30June <br><br><a href="https://t.me/PolyEarth_Finance_bot?start=r05509318290"><p id="p4"> TELEGRAM BOT </p></a><br>
      </div>
 </div>
 
@@ -125,13 +139,27 @@ document.getElementById("mySidenav").style.height = "0px";
 </script>
 <script>
           $("title").ready(function(){$("#PreSale,.closebtn").hide();});
-          $("#p").click(function(){$("#home,#bsc,#brdr,#wi,#aims,#main").hide(100);});
-          $("#home,#bsc,#brdr,#wi,#aims,#main").click(function(){$("#PreSale").hide(100);});
-          $("#p").click(function(){$("#PreSale").show(100);});
-          $("#h,#w,#c,#a").click(function(){$("#home,#bsc,#brdr,#wi,#aims,#main").show(100);});
-          $("#h,#w,#c,#a").click(function(){$("#PreSale").hide(100);});
-          $(".closebtn,#h,#w,#c,#a,#p").click(function(){$(".closebtn").hide(100);});
-          $("#mn").click(function(){$(".closebtn").show(100);});
+          $("html").click(function(){$("#myNav").hide(10);});
+          $("#p").click(function(){$("#home,#bsc,#brdr,#wi,#aims,#main").hide(10);});
+          $("#home,#bsc,#brdr,#wi,#aims,#main").click(function(){$("#PreSale").hide(10);});
+          $("#p").click(function(){$("#PreSale").show(10);});
+          $("#h,#w,#c,#a").click(function(){$("#home,#bsc,#brdr,#wi,#aims,#main").show(10);});
+          $("#h,#w,#c,#a").click(function(){$("#PreSale").hide(10);});
+          $(".closebtn,#h,#w,#c,#a,#p").click(function(){$(".closebtn").hide(10);});
+          $("#mn").click(function(){$(".closebtn").show(10);});
+                 $("#p").click(function(){document.body.scrollTop = 0;
+                 document.documentElement.scrollTop = 0;});
+
+</script>
+<script>
+function CopyToClipboard(element) {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(element).text()).select();
+  document.execCommand("copy");
+  $temp.remove();
+}
+
 </script>
 </body>
 </html>

@@ -282,17 +282,17 @@ a:hover{
   text-align:center;
 }
 #p2{
-  color:grey;
+  color:#DCDCDC;
 }
 #p3{
   border:1px solid red;
+  border-bottom:none;
   border-radius:3%;
   background-color:black;
-  width:50%;
-  margin-left:auto;
-  margin-right:auto;
+  width:100%;
   padding:2%;
-  font-size:15pt;
+  font-size:10pt;
+  color:#33FFCC;
 }
 #p4{
   border:1px solid red;
@@ -303,8 +303,53 @@ a:hover{
   margin-right:auto;
   padding:2%;
   font-size:15pt;
-  color:white;
+  color:;
 }
 #p5{
+  color:#DCDCDC;
+}
+#p6{
   color:grey;
+  font-size:7pt;
+}
+.fa-clipboard{
+  color:#33FFCC;
+  margin-left:0;
+  margin-bottom:0;
+  font-size:10pt;
+}
+#b1{
+  border:1px solid red;
+  border-top:none;
+  border-radius:3%;
+  background:none;
+  width:100%;
+  padding:2%;
+  color:white;
+}
+#b1:hover,.fa-clipboard{
+  color:lightgreen;
+}
+#box{
+  display:block;
+  background-color:#181818;
+  color:white;
+  justify-content:center;
+  align-items:center;
+  margin:7%;
+  padding:2%;
+  box-shadow:0 0 10px #303030;
+  border-radius:4%;
+  font-family:Avenir;
+}
+#hdn{
+  font-weight:bold;
+}
+#para{
+  font-weight:400;
+    color:#DCDCDC;
+}
+#pef2{
+  color:white;
+  font-family: 'Cinzel', serif;
 }

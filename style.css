@@ -159,7 +159,7 @@ a:hover{
   float:left;
   font-size:30pt;
 }
-.fa-tachometer,.fa-gift{
+.fa-tachometer,.fa-gift,.fa-cubes,.fa-bicycle{
   color:white;
   text-align:center;
   font-size:30pt;
@@ -331,6 +331,10 @@ a:hover{
   color:lightgreen;
 }
 #box{
+  background-image:url("bg-3.jpg");
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:1200px;
   display:block;
   background-color:#181818;
   color:white;
@@ -352,4 +356,11 @@ a:hover{
 #pef2{
   color:white;
   font-family: 'Cinzel', serif;
+}
+#me{
+  font-size:7pt;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  display:block;
 }

@@ -18,6 +18,9 @@ body{background-color:black;}
 }
 #Menu{
   display:flex;
+  top:0
+  left:0
+  align-items:center 
   background-color:black;
   width:100%;
   height:50px;

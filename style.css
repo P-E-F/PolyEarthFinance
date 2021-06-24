@@ -289,8 +289,7 @@ a:hover{
   color:lightgreen;
 }
 #box{
-  background-image:url("bg-3.jpg");
-
+  background-image:url("Bg-3.jpg");
   background-repeat:no-repeat;
   background-size:1000px;
   display:block;

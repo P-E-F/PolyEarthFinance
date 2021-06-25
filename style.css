@@ -3,6 +3,9 @@ html {
   scroll-behavior: smooth;
 }
 body{background-color:black;}
+.noSelect{
+--webkit-tap-highlight-color:rgba(255, 255,255,0) 
+}
 #mn{
   display:flex;
   text-align:right;
@@ -16,19 +19,23 @@ body{background-color:black;}
   justify-content:left;
   font-family: 'Mate SC', serif;
 }
+div:hover{
+  /*transform:rotate(360deg);
+  transition: 1s ease-in-out;*/
+}
 #Menu {
-    display: flex;
-    background-color: black;
-    width: 100%;
-    height: 50px;
-    position: fixed;
-    z-index: 2;
-    /* justify-content: left; */
-    box-shadow: -7px 0px 20px black;
-    box-sizing: border-box;
-    top: 0;
-    left: 0;
-    align-items: center;
+  display: flex;
+  background-color: black;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  z-index: 2;
+  /* justify-content: left; */
+  box-shadow: -7px 0px 20px black;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  align-items: center;
 }
 .closebtn {
   position: absolute;
@@ -144,7 +151,7 @@ a:hover{
 #plink{
   color:#FF69B4;
 }
-#whatIs , .wcu{
+#whatIs , .wcu,#pfont,#pfont2{
   text-align:center;
   color:darkred;
   font-weight:bold;
@@ -231,12 +238,10 @@ a:hover{
   overflow:hidden;
 }
 #pfont{
-  color:white;
   text-align:center;
   margin:5px;
 }
 #pfont2{
-  color:white;
   margin:5px;
 }
 #p1{
@@ -264,7 +269,6 @@ a:hover{
   margin-right:auto;
   padding:2%;
   font-size:15pt;
-  color:;
 }
 #p5{
   color:#DCDCDC;
@@ -294,14 +298,16 @@ a:hover{
 #box{
   background-image:url("Bg-3.jpg");
   background-repeat:no-repeat;
-  background-size:1000px;
+  background-size:cover;
   display:block;
   color:white;
   justify-content:center;
   align-items:center;
+  padding:2%;
+  padding-bottom:5%;
   margin:7%;
   box-shadow:0 0 20px #303030;
-  border-radius:5%;
+  border-radius:10%;
   font-family:Avenir;
 }
 #pef2{
@@ -360,7 +366,7 @@ a:hover{
 }
 #copyright{
   border:none;
-  padding: 8px 0 2px 0;
+  padding: 10px 0 2px 0;
   height:100%;
   width:100%;
   background-color:#202020;

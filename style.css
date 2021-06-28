@@ -381,7 +381,7 @@ a:hover{
   border:3px solid white;
   background-color:black;
   height:100%;
-  width:95%;
+  width:auto;
   justify-content:center;
   align-items:center;
   text-align:center;
@@ -411,7 +411,8 @@ a:hover{
   color:red;
   font-size:20pt;
   top:1%;
-  margin-left:77%;
+  left:2%;
+  margin-right:77%;
   margin-bottom:1;
   position:absolute;
 }

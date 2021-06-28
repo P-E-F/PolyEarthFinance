@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 html {
   scroll-behavior: smooth;
 }
-body{background-color:black;}
+body{background-color:black;   font-family: 'PT Sans', sans-serif;}
 .noSelect{
 --webkit-tap-highlight-color:rgba(255, 255,255,0) 
 }
@@ -366,7 +367,7 @@ a:hover{
 }
 #copyright{
   border:none;
-  padding: 8px 0 5px 0;
+  padding: 10px 0 2px 0;
   height:100%;
   width:100%;
   background-color:#202020;
@@ -374,4 +375,43 @@ a:hover{
 #cw{
   color:#B8B8B8;
   font-size:7pt;
+}
+#PopUp{
+  position:fixed;
+  border:3px solid white;
+  background-color:black;
+  height:100%;
+  width:100%;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:5%;
+  padding-top:10%;
+  box-shadow:0 0 10px red;
+  z-index:5;
+}
+#pu1{
+  padding:5%;
+  border:1px dotted red;
+  border-radius:20% 0% 20% 0%;
+  z-index:6;
+}
+.live{
+  color:white;
+  text-shadow:1px 0 100px blue;
+}
+.contract{
+  color:blue;
+  font-size:10pt;
+}
+.lnk{
+  color:blue;
+}
+.fa-close{
+  color:red;
+  font-size:20pt;
+  top:1%;
+  margin-left:77%;
+  margin-bottom:1;
+  position:absolute;
 }

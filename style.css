@@ -389,6 +389,7 @@ a:hover{
   padding-top:10%;
   box-shadow:0 0 10px red;
   z-index:5;
+  overflow:hidden;
 }
 #pu1{
   padding:5%;
